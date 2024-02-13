@@ -3,7 +3,7 @@
   "mv" allows you to rename or move files/scripts
   "nano" opens a new python script
 2. Do you have pets? What kind?
-  I have a dog named Sherlock, he's a havapoo
+  I have a dog named Sherlock, he's a havanese-poodle mix
 3. If you run across an error, what would your first course of action be?
   read what happened to the error, then look up a solution on the internet
 4. Funniest thing that happened to you in high school.
