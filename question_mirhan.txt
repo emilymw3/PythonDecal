@@ -1,11 +1,13 @@
 1. What are 3-5 (or more) commands that you can use on terminal and what do they do? What language is your computer terminal in?
-
+  "cd" by itself directs you to the desktop, if you follow it by a file name you will enter that file
+  "mv" allows you to rename or move files/scripts
+  "nano" opens a new python script
 2. Do you have pets? What kind?
-
+  I have a dog named Sherlock, he's a havapoo
 3. If you run across an error, what would your first course of action be?
-
+  read what happened to the error, then look up a solution on the internet
 4. Funniest thing that happened to you in high school.
-
+  I had to take a class in high school to fulfill the arts requirement. Half of it was pulling weeds and replanting stuff in the farm behind the school (My high school had sheep and was literally surrounded by orchards)
 5. What is a python script? (Keep it simple)
-
+  lines of code in python
 
