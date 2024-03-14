@@ -74,6 +74,7 @@ def max_whileloop(somelist):
           if whilemax_num < somelist[i+1]:
                whilemax_num = somelist[i]
                return whilemax_num
+          i +=1
 print(max_whileloop(numlist))
 
 # find min with while loop
@@ -84,6 +85,7 @@ def min_whileloop(somelist):
           if whilemin_num < somelist[i+1]:
                whilemin_num = somelist[i]
                return whilemin_num
+          i +=1
 print(min_whileloop(numlist))
 
 
@@ -98,10 +100,12 @@ for i in range(len(word)):
 print(num_vowels)
 
 
-
 # Problem 8- digital root
 digit = input("Give me a number: ")
-sum = 0
-for num in str(digit):
-    sum = sum + int(num)
-print(sum)
+def find_sum(x):
+    sum = 0
+    for i in range(len(x)):
+        sum = sum + int(x[i])
+    return sum
+print(find_sum(digit))
+    
