@@ -1,2 +1,2 @@
 # PythonDecal
-hw2 folder
+Homework Folder
