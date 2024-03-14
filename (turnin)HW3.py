@@ -1,6 +1,6 @@
 # Decal HW3
 
-#Problem 1- Exponents- DONE!!
+#Problem 1- Exponents
 x = int(input("Input a base number: "))
 y = int(input("Input a number as the exponent: "))
 product = 1
@@ -11,7 +11,7 @@ print(product)
 
 
 
-#Problem 2- DONE!!
+#Problem 2- max/min from a list
 list = []
 maxlength = 5
 while len(list) < maxlength:
@@ -22,7 +22,7 @@ end_tuple = {min(list), max(list)}
 print(end_tuple)
 
 
-#Problem 3-  Check leap year- DONE!!
+#Problem 3-  Check leap year
 year =  input()
 if int(year) % 4 !=  0:
     print('false')
@@ -30,7 +30,7 @@ else:
         print('true')
 
 
-#Problem 4- Caluclate BMI- DONE!!
+#Problem 4- Caluclate BMI
 weight = float(input("How much do you weigh (kg)? "))
 height = float(input("How tall are you (m)? "))
 BMI = weight/height ** 2
@@ -54,7 +54,6 @@ def max_forloop(somelist):
                formax_num = i
                return formax_num
 print(max_forloop(numlist))
-
 
 #find min with for loop
 def min_forloop(somelist):
@@ -89,7 +88,7 @@ print(min_whileloop(numlist))
 
 
 
-# Problem 7- Vowels- DONE!!
+# Problem 7- Vowels
 word = str(input("Give me a word: "))
 vowels = ["a", "e", "i", "o", "u"]
 num_vowels = 0
@@ -100,7 +99,7 @@ print(num_vowels)
 
 
 
-# Problem 8- digital root- DONE!!
+# Problem 8- digital root
 digit = input("Give me a number: ")
 sum = 0
 for num in str(digit):
